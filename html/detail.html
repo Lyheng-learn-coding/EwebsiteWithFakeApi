@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../src/output.css" />
+    <link rel="shortcut icon" href="../img/Logo-D.png" type="image/x-icon" />
+    <!-- cdn font  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    />
+    <!-- flaticon cdn  -->
+    <link
+      rel="stylesheet"
+      href="https://cdn-uicons.flaticon.com/3.0.0/uicons-regular-straight/css/uicons-regular-straight.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn-uicons.flaticon.com/3.0.0/uicons-solid-straight/css/uicons-solid-straight.css"
+    />
+    <title>Duka Shop</title>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  </head>
+  <body>
+    <section class="w-full flex justify-center flex-col">
+      <div
+        class="bg-white flex justify-center items-center p-[10px] fixed top-0 w-full"
+      >
+        <button
+          id="backButton"
+          class="bg-transparent text-[1.5rem] font-bold absolute left-0 top-[15px] md:ml-5"
+        >
+          <i class="fi fi-rs-angle-left"></i>
+        </button>
+        <h2 class="text-center md:text-[2rem] text-[1.5rem] text-black">
+          Product details
+        </h2>
+      </div>
+      <!-- display the detail  -->
+      <div
+        id="detailContainer"
+        class="p-[10px] flex md:gap-6 gap-2.5 justify-center items-center w-full md:mt-[180px] mt-[50px] flex-col md:flex-row"
+      >
+        <!-- <div>
+          <img
+            class="md:w-[300px] w-full md:h-auto object-cover"
+            src="https://images.unsplash.com/photo-1622519407650-3df9883f76a5?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8bWVuJTIwZmFzaGlvbnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&q=60&w=600"
+            alt=""
+          />
+          <div class="flex justify-end items-center md:hidden">
+            <button
+              class="p-[10px] bg-gray-200 text-[green] rounded-[5px] text-[1rem]"
+            >
+              <i class="fa-solid fa-plus"></i>
+            </button>
+            <span class="text-[1rem] font-bold p-[15px]">1</span>
+            <button
+              class="p-[10px] bg-gray-200 text-[green] rounded-[5px] text-[1rem]"
+            >
+              <i class="fa-solid fa-minus"></i>
+            </button>
+          </div>
+        </div>
+        <div>
+          <div class="flex gap-2.5 flex-col">
+            <h2 class="text-[1.2rem] font-bold">Product name</h2>
+            <h2 class="text-[green] font-bold text-[1.2rem]">Description</h2>
+            <p class="text-[1rem] text-black max-w-prose">
+              Slim-fitting style, contrast raglan long sleeve, three-button
+              henley placket, light weight & soft fabric for breathable and
+              comfortable wearing. And Solid stitched shirts with round neck
+              made for durability and a
+            </p>
+            <p class="text-[green] mb-[20px]">$100</p>
+            <button
+              class="md:hidden w-full md:w-auto p-[10px] rounded-[5px] bg-[green] text-white text-[1rem]"
+            >
+              Add to Cart
+            </button>
+          </div>
+          <div class="items-center gap-2.5 hidden md:flex">
+            <button
+              class="w-full md:w-auto p-[10px] rounded-[5px] bg-[green] text-white text-[1rem]"
+            >
+              Add to Cart
+            </button>
+            <button
+              class="p-[10px] bg-gray-200 text-[green] rounded-[5px] text-[1rem]"
+            >
+              <i class="fa-solid fa-plus"></i>
+            </button>
+            <span class="text-[1rem] font-bold p-[10px]">1</span>
+            <button
+              class="p-[10px] bg-gray-200 text-[green] rounded-[5px] text-[1rem]"
+            >
+              <i class="fa-solid fa-minus"></i>
+            </button>
+          </div>
+        </div> -->
+      </div>
+    </section>
+  </body>
+  <script src="../js/detail.js"></script>
+</html>
