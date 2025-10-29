@@ -116,17 +116,17 @@ function renderProductDetail(p) {
           </div>
           <div class="items-center gap-2.5 hidden md:flex mt-4">
             <button
-              class="add-to-cart-btn hover:bg-green-800 hover:transition-[0.2s] w-full md:w-auto p-[10px] rounded-[5px] bg-[green] text-white text-[1rem]"
+              class=" cursor-pointer add-to-cart-btn hover:bg-green-800 hover:transition-[0.2s] w-full md:w-auto p-[10px] rounded-[5px] bg-[green] text-white text-[1rem]"
             >
               Add to Cart
             </button>
             <button
-              class="decre p-[10px] bg-gray-200 text-[green] rounded-[5px] text-[1rem]" >
+              class="decre  cursor-pointer p-[10px] bg-gray-200 text-[green] rounded-[5px] text-[1rem]" >
               <i class="fa-solid fa-minus"></i>    
             </button>
             <span class="itemQty text-[1rem] font-bold p-[10px]">1</span>
             <button
-              class="incre p-[10px] bg-gray-200 text-[green] rounded-[5px] text-[1rem]"
+              class="incre  cursor-pointer p-[10px] bg-gray-200 text-[green] rounded-[5px] text-[1rem]"
             >
               <i class="fa-solid fa-plus"></i>
             </button>

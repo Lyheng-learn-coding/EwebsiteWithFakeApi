@@ -136,7 +136,7 @@ function displayAllPro(products, container) {
                     </button>
                 </div>
                 </div>
-            <button class="favPro z-10 flex justify-center items-center absolute right-[5px] top-[5px] backdrop-blur-[20px] rounded-[50%] size-10 p-[10px] text-[1rem] bg-[#cdcdcd] ${
+            <button class="favPro z-10 flex justify-center items-center absolute right-[5px] top-[5px] backdrop-blur-[20px]  cursor-pointer rounded-[50%] size-10 p-[10px] text-[1rem] bg-[#cdcdcd] ${
               isFav ? "text-red-500" : "text-white"
             }" data-favid = ${p.id}>
             <i class="fa-${isFav ? "solid" : "regular"} fa-heart"></i>
